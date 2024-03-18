@@ -1,0 +1,21 @@
+.flexBox {
+    display: flex ;
+    flex-direction: column;
+    gap: clamp(2rem , 5vw, 2rem);
+}
+
+.bannerSection h1{
+    margin-bottom: 1.875rem ;
+}
+
+.bannerSection a {
+    margin-top: 3.125rem;
+
+}
+
+@media (min-width: 950px ) {
+    .flexBox{
+        flex-direction: row;
+        
+    }
+}

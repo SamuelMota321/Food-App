@@ -1,0 +1,11 @@
+.restaurantlist {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+}
+
+@media ( min-width: 800px ) {
+    .restaurantlist {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
